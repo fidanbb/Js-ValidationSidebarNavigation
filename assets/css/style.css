@@ -1,0 +1,46 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.move-sidebar {
+  transform: translate(-250px, 0);
+}
+.sidebar ul {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.sidebar ul li {
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+.sidebar ul li a:hover {
+  color: black;
+}
+
+.sidebar i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.sidebar i:hover {
+  color: black;
+}
